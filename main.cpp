@@ -18,3 +18,12 @@ std::cout << ptr << std::endl;
 int* ptr2 = &x;
 *ptr2 = 100;
 
+
+// Exercise 2
+void swap(int* a, int* b) {
+    // TODO: Implement swap using pointers
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
