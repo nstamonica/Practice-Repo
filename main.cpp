@@ -1,5 +1,4 @@
 // Exercise 1
-
 // TODO: Declare an integer variable 'x' and initialize it to 42
 int x = 42;
 
@@ -26,4 +25,13 @@ void swap(int* a, int* b) {
     *a = *b;
     *b = temp;
 }
+
+// Exercise 3
+// TODO: Create an array of 5 integers
+// TODO: Use pointer arithmetic to:
+//   - Print all elements
+//   - Find the sum of all elements
+//   - Find the maximum element
+// Do NOT use array indexing (no brackets [])
+int numbers[5]
 
